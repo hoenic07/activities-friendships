@@ -1,0 +1,26 @@
+[
+    {
+        "id": "321",
+        "type": "running",
+        "user_id": "1",
+        "start_time": 1538483803000,
+        "distance": 5000,
+        "duration": 1500000
+    },
+    {
+      "id": "321",
+      "type": "running",
+      "user_id": "2",
+      "start_time": 1538483803000,
+      "distance": 5000,
+      "duration": 1500000
+    },
+    {
+      "id": "567",
+      "type": "cycling",
+      "user_id": "2",
+      "start_time": 1538483803000,
+      "distance": 5000,
+      "duration": 1500000
+    }
+]
