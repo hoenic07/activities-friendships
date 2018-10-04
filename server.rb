@@ -21,6 +21,7 @@ get '/users/:user_id/friendships' do |user_id|
 end
 
 set :show_exceptions, false
+set :raise_errors, false
 
 set :port, 4321
 
