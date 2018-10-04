@@ -3,7 +3,7 @@
 Returns activities for one or multiple users.
 
 ## Resource URL
-`<base-url>/activities`
+`https://activities-friendships.herokuapp.com/activities`
 
 ## Query Params
 
@@ -18,7 +18,7 @@ The following parameters filter the data. If any of these parameters isn't defin
 
 
 ## Example Request
-`GET <base-url>/activities?type=running&user_ids=1`
+`GET https://activities-friendships.herokuapp.com/activities?type=running&user_ids=1`
 
 ## Example Response
 

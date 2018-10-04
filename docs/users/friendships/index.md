@@ -3,7 +3,7 @@
 Returns all friends of a user.
 
 ## Resource URL
-`<base-url>/users/:user_id/friends`
+`https://activities-friendships.herokuapp.com/users/:user_id/friends`
 
 ## Url Params
 
@@ -13,7 +13,7 @@ Returns all friends of a user.
 
 
 ## Example Request
-`GET <base-url>/users/1/friendships`
+`GET https://activities-friendships.herokuapp.com/users/1/friendships`
 
 ## Example Response
 
