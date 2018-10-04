@@ -1,8 +1,8 @@
-require "mc18/repository/friendship"
+require "activities_friendships/repository/friendship"
 
 require "json"
 
-module Mc18
+module ActivitiesFriendships
   module UseCase
     module Friendship
       class LoadData

@@ -1,8 +1,8 @@
 require "receptacle"
 
-require "mc18/repository/friendship/strategy/in_memory"
+require "activities_friendships/repository/friendship/strategy/in_memory"
 
-module Mc18
+module ActivitiesFriendships
   module Repository
     module Friendship
       include Receptacle::Repo

@@ -1,13 +1,13 @@
-require "mc18/serializer/friendship"
-require "mc18/serializer/activity"
+require "activities_friendships/serializer/friendship"
+require "activities_friendships/serializer/activity"
 
 module Api
   module ResponseHandler
     class Collection
 
       SERIALIZER_MAPPING = {
-        "Mc18::Model::Friendship" => Mc18::Serializer::Friendship,
-        "Mc18::Model::Activity" => Mc18::Serializer::Activity
+        "ActivitiesFriendships::Model::Friendship" => ActivitiesFriendships::Serializer::Friendship,
+        "ActivitiesFriendships::Model::Activity" => ActivitiesFriendships::Serializer::Activity
       }
 
       def initialize(collection)

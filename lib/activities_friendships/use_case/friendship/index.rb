@@ -1,6 +1,6 @@
-require "mc18/repository/friendship"
+require "activities_friendships/repository/friendship"
 
-module Mc18
+module ActivitiesFriendships
   module UseCase
     module Friendship
       class Index

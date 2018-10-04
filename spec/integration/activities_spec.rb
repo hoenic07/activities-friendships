@@ -10,7 +10,7 @@ describe "Activities" do
   end
 
   let(:activity) do
-    Mc18::Model::Activity.new(
+    ActivitiesFriendships::Model::Activity.new(
       id: "123",
       type: "running",
       user_id: "2",
@@ -21,7 +21,7 @@ describe "Activities" do
   end
 
   let(:activity2) do
-    Mc18::Model::Activity.new(
+    ActivitiesFriendships::Model::Activity.new(
       id: "124",
       type: "running",
       user_id: "1",
@@ -32,9 +32,9 @@ describe "Activities" do
   end
 
   before do
-    Mc18::Repository::Activity.clear
-    Mc18::Repository::Activity.create(activity)
-    Mc18::Repository::Activity.create(activity2)
+    ActivitiesFriendships::Repository::Activity.clear
+    ActivitiesFriendships::Repository::Activity.create(activity)
+    ActivitiesFriendships::Repository::Activity.create(activity2)
   end
 
   let(:url) { "/activities" }

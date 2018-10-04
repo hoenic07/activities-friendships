@@ -1,4 +1,4 @@
-module Mc18
+module ActivitiesFriendships
   module Serializer
     module Friendship
       module_function

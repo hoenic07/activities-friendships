@@ -10,7 +10,7 @@ describe "Friendships" do
   end
 
   let(:friendship) do
-    Mc18::Model::Friendship.new(
+    ActivitiesFriendships::Model::Friendship.new(
       id: "123",
       user_ids: ["1","2"],
       created_at: Time.at(1538637755)
@@ -18,7 +18,7 @@ describe "Friendships" do
   end
 
   let(:friendship2) do
-    Mc18::Model::Friendship.new(
+    ActivitiesFriendships::Model::Friendship.new(
       id: "123",
       user_ids: ["1","3"],
       created_at: Time.at(1538637755)
@@ -26,9 +26,9 @@ describe "Friendships" do
   end
 
   before do
-    Mc18::Repository::Friendship.clear
-    Mc18::Repository::Friendship.create(friendship)
-    Mc18::Repository::Friendship.create(friendship2)
+    ActivitiesFriendships::Repository::Friendship.clear
+    ActivitiesFriendships::Repository::Friendship.create(friendship)
+    ActivitiesFriendships::Repository::Friendship.create(friendship2)
   end
 
   let(:user_id) { "1" }

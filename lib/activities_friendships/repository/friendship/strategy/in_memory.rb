@@ -1,6 +1,6 @@
-require "mc18/model/friendship"
+require "activities_friendships/model/friendship"
 
-module Mc18
+module ActivitiesFriendships
   module Repository
     module Friendship
       module Strategy

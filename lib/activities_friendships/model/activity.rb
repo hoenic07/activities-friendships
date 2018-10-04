@@ -1,6 +1,6 @@
 require 'types'
 
-module Mc18
+module ActivitiesFriendships
   module Model
     class Activity < Dry::Struct
       attribute :id,         Types::Strict::String
