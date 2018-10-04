@@ -1,10 +1,9 @@
 require "json"
-require "pry"
 require "securerandom"
 require "active_support/all"
 
 TYPES = ["running","running","running","cycling","walking","hiking"]
-LAST_YEAR_START = Time.new(2017,1,1)
+LAST_YEAR_START = (Time.now-1.year).beginning_of_year
 LAST_MONTH_START = Time.now - 30.days
 LATEST_DATE = Time.now
 
