@@ -1,7 +1,8 @@
 # Activities and Friendships
 
-A Backend service that serves randomly generated sport activities and friends.
-The data is stored in-memory.
+A Backend service that serves sport activities and friends. The data is stored
+in-memory and is loaded from JSON files, which can be generated with a script
+(see below).
 
 ## Setup
 
