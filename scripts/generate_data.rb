@@ -3,16 +3,16 @@ require "securerandom"
 require "active_support/all"
 
 TYPES = ["running","running","running","cycling","walking","hiking"]
-LAST_YEAR_START = (Time.now-1.year).beginning_of_year
-LAST_MONTH_START = Time.now - 30.days
-LATEST_DATE = Time.now
+
+LATEST_DATE = Time.new(2018,10,10)
+LAST_YEAR_START = (LATEST_DATE - 1.year).beginning_of_year
+LAST_MONTH_START = (LATEST_DATE - 1.month).beginning_of_month
 
 NO_OF_USERS = 50
 
 def rand_range(min, max)
   min + rand(max-min)
 end
-
 
 def random_date(earliest_date=LAST_YEAR_START)
   rand_range(earliest_date.to_i,LATEST_DATE.to_i)*1000
