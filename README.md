@@ -1,5 +1,7 @@
 # Activities and Friendships
 
+[![Build Status](https://travis-ci.com/runtastic/activities-friendships.svg?branch=master)](https://travis-ci.com/runtastic/activities-friendships)
+
 A Backend service that serves sport activities and friends. The data is stored
 in-memory and is loaded from JSON files, which can be generated with a script
 (see below).
