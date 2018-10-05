@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-require "server"
+require "app"
 
 describe "Friendships" do
   include Rack::Test::Methods
 
   def app
-    Sinatra::Application
+    App
   end
 
   let(:friendship) do
