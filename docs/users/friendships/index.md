@@ -3,7 +3,7 @@
 Returns all friends of a user.
 
 ## Resource URL
-`https://activities-friendships.herokuapp.com/users/:user_id/friends`
+`https://activities-friendships.herokuapp.com/users/:user_id/friendships`
 
 ## Url Params
 
